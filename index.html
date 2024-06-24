@@ -81,6 +81,7 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                <!-- Example Project -->
                 <div class="project shadow-large"></div>
             </div>
         </div>
@@ -92,9 +93,28 @@
             </div>
             <div class="project-info">
                 <h3>Siggraph Asia Daegu 2022: Art Gallery</h3>
-                <p>The installation consists of an urban/rural Japanese landscape influenced by a Latinx community. Model structures are made of printed photographs and small screens for seeing details, both of which are part of a bigger archive. In this setting, attendees will be able to see the visual communication of the city.</p>
+               <button class="open-modal" data-modal="modal1">Ver Más</button>
+                    </div>
+                </div>
+                <!-- Repeat for other projects... -->
             </div>
         </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Siggraph Asia Daegu 2022: Art Gallery</h2>
+            <p>Descripción completa del proyecto...</p>
+            <img src="images/publicacionsiggraphgallery.png" alt="Siggraph Asia Daegu 2022: Art Gallery">
+        </div>
+    </div>
+
+    <!-- Repeat for other modals... -->
+
+    <!-- Scripts -->
+    <script src="js/modal.js"></script>
 
         <!-- 19th Doctoral Course Exhibition -->
         <div class="project">
